@@ -1,169 +1,198 @@
 
-
-<div align="center" style="text-align: center">
-  <!-- استبدل المسار أدناه بصورة الخريطة الأصلية التي أرسلتها -->
-  ![Software Engineering Roadmap](images/your-original-roadmap.png)
-
-  <h1>Software Engineering Bachelor's Equivalency — Complete Learning Path</h1>
-
+<div align="center">
+  <img src="images/ossu-logo.webp" alt="Open Source Society logo" width="160"/>
+  <h1>Software Engineering — Bachelor's Equivalency Roadmap</h1>
   <p>
-    A curated, academic-style roadmap for achieving a Software Engineering bachelor's-equivalency,
-    combining university-level courses and practical online resources.
+    A curated, academic + practical roadmap to reach a Software Engineering bachelor's-equivalency —
+    combining university-level courses (OSSU-style) and hands-on resources.
   </p>
 
   <p>
-    <a href="https://github.com/ossu/computer-science">
-      <img alt="OSSU - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg" />
-    </a>
-    <a href="https://www.freecodecamp.org/">
-      <img alt="freeCodeCamp" src="https://img.shields.io/badge/freeCodeCamp-free--learning-4a9df6.svg" />
-    </a>
+    <a href="https://github.com/ossu/computer-science"><img alt="OSSU" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>
+    <a href="https://www.freecodecamp.org/"><img alt="freeCodeCamp" src="https://img.shields.io/badge/freeCodeCamp-free--learning-4a9df6.svg"></a>
+    <a href="https://ocw.mit.edu"><img alt="MIT OCW" src="https://img.shields.io/badge/MIT-OCW-red.svg"></a>
+    <a href="https://www.coursera.org/"><img alt="Coursera" src="https://img.shields.io/badge/Coursera-Learn-blue.svg"></a>
+    <a href="https://www.edx.org/"><img alt="edX" src="https://img.shields.io/badge/edX-Learn-blue.svg"></a>
   </p>
 </div>
 
 ---
 
-# Contents
+## 🛠 Skills & Tools
 
-- [Summary](#summary)
-- [How to use this roadmap](#how-to-use-this-roadmap)
-- [Curriculum (text map)](#curriculum-text-map)
-  - [Foundations](#foundations)
-  - [Software Design & Architecture](#software-design--architecture)
-  - [Development Process & Tools](#development-process--tools)
-  - [Backend & Databases](#backend--databases)
-  - [Frontend & UX](#frontend--ux)
-  - [Testing, QA & Security](#testing-qa--security)
-  - [Deployment, Cloud & DevOps](#deployment-cloud--devops)
-  - [Advanced Topics / Electives](#advanced-topics--electives)
-- [Extra resources & curricula](#extra-resources--curricula)
-- [Credits & license](#credits--license)
+Python · C++ · HTML · CSS · JavaScript · React · SQL · Git · GitHub · Linux · Cloud · Docker · Kubernetes
 
 ---
 
-## Summary
+# 📚 Contents
 
-This README pairs the visual roadmap (image above) with a **textual curriculum**.  
-Each topic below lists high-quality resources (courses, books, curricula) from Coursera, edX, MIT OCW, IBM Skills, Khan Academy, freeCodeCamp, OSSU, TeachYourselfCS, InfoCobuild and top universities — with a short description explaining why to pick that resource.
-
-(OSSU is used as a structural inspiration and as one of the recommended full curricula). 0
+- [How to use this roadmap](#how-to-use-this-roadmap)  
+- [Curriculum (text map)](#curriculum-text-map)  
+  - [Foundations](#foundations)  
+  - [Programming Fundamentals](#programming-fundamentals)  
+  - [Data Structures & Algorithms](#data-structures--algorithms)  
+  - [Computer Systems](#computer-systems)  
+  - [Databases](#databases)  
+  - [Software Architecture](#software-architecture)  
+  - [Frontend & Web](#frontend--web)  
+  - [Testing & QA](#testing--qa)  
+  - [DevOps & Cloud](#devops--cloud)  
+  - [Advanced Topics](#advanced-topics)  
+- [Final Projects & Capstone](#final-projects--capstone)  
+- [Extra Resources](#extra-resources)  
+- [Credits](#credits)
 
 ---
 
 ## How to use this roadmap
 
-1. Start from **Foundations** and work upward to **Advanced Topics**.  
-2. For each box/topic in the image, use the matching textual links below (each link has a short description).  
-3. Track progress by forking this repo and checking items as you complete them.  
-4. Use OSSU or TeachYourselfCS tracks for a full, ordered program; use Coursera/edX/MIT courses to swap-in preferred lectures. 1
+1. Start from **Foundations** and follow down the list.  
+2. Use the visual roadmap (`images/your-original-roadmap.png`) as a guide; use this README for links & structure.  
+3. Track progress by forking the repo and marking completed items.  
+4. Combine academic courses with practical projects — build a portfolio as you learn.
 
 ---
 
 ## Curriculum (text map)
 
-> **Note:** each bullet contains: `[Platform - Course/Resource Title](link)` — *short description*.
+> **Note:** This roadmap uses the OSSU structure/design and the full Software Engineering content.  
+> From the OSSU (Computer Science) curriculum we included **only** the courses most relevant to Software Engineering.
 
 ---
 
-### Foundations (Math & CS fundamentals)
-
-- **MIT OCW — Mathematics for Computer Science (6.042J)** — [MIT OCW: 6.042J Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) — *Discrete math, proofs, counting, graph theory and probability; ideal for CS foundations.* 2  
-- **Khan Academy — Pre-University Math & Probability** — [Khan Academy Math](https://www.khanacademy.org/math) — *refresh algebra, precalc, calculus basics and probability intuitions before core CS.*  
-- **OSSU Precollege Math resources** — [OSSU precollege-math](https://ossu.dev/precollege-math) — *recommended preparation list if you skipped high-school math topics.* 3
+### Foundations
+- [MIT OCW — Mathematics for Computer Science](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) — discrete math, proofs, graph theory, probability.  
+- [Khan Academy — Math for CS](https://www.khanacademy.org/math) — algebra, calculus, probability.  
+- [OSSU — Precollege Math](https://ossu.dev/precollege-math) — high school math refresher.
 
 ---
 
-### Programming & Computing Fundamentals
-
-- **Harvard / edX — CS50: Introduction to Computer Science** — [CS50 (Harvard) — edX / course page](https://cs50.harvard.edu/) — *broad intro to programming, problem solving, and project work.*  
-- **MITx / OCW — Intro to CS & Programming using Python** — [MIT OCW Intro to CS using Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python/) — *practical Python for computational problem solving.*  
-- **OSSU — Intro CS modules & track** — [OSSU computer-science repo](https://github.com/ossu/computer-science) — *complete open curriculum that maps intro courses into a degree-like flow.* 4  
-- **TeachYourselfCS — reading-based CS guide** — [TeachYourselfCS](https://teachyourselfcs.com/) — *book-first, deep-concept approach (SICP, CLRS, etc.).*
+### Programming Fundamentals
+- [Harvard CS50](https://cs50.harvard.edu/x/) — intro to CS (C, Python, SQL).  
+- [MIT — Intro to Python (6.0001)](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python/) — Python problem solving.  
+- [freeCodeCamp — Python/JavaScript Tracks](https://www.freecodecamp.org/learn/) — interactive projects.  
+- [Systematic Program Design](https://coursepages.github.io/spd/README.html) — program design fundamentals (from OSSU core programming list).  
+- [Object-Oriented Design (NEU/course link)](https://course.ccs.neu.edu/cs3500f19/) — OO principles and design.
 
 ---
 
 ### Data Structures & Algorithms
-
-- **Coursera — Algorithms Specialization (Stanford / Tim Roughgarden)** — [Coursera Algorithms Specialization](https://www.coursera.org/specializations/algorithms) — *formal algorithm design and analysis (asymptotics, graph algorithms, dynamic programming).* 5  
-- **Princeton / Coursera — Algorithms, Part I & II** — [Algorithms Part I (Princeton)](https://www.coursera.org/learn/algorithms-part1) — *implementation-focused; good for interviews and practice.* 6  
-- **freeCodeCamp — Data Structures & Algorithms tutorials** — [freeCodeCamp.org](https://www.freecodecamp.org/news/tag/algorithms/) — *free, many guided videos and exercises.* 7
-
----
-
-### Computer Systems & Architecture
-
-- **Nand2Tetris (Coursera / official site)** — [Nand2Tetris / Coursera](https://www.coursera.org/learn/build-a-computer) — *build a computer from logic gates to an OS — excellent systems intuition.*  
-- **MIT OCW — Computer Systems & Architecture courses** — [MIT OCW computation structures / 6.004](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/) — *digital circuits, caches, pipelining and processor basics.* 8  
-- **Operating Systems: Three Easy Pieces (OSTEP)** — [OSTEP](http://pages.cs.wisc.edu/~remzi/OSTEP/) — *practical OS concepts in readable chapters.*
+- [Coursera — Algorithms Specialization (Stanford)](https://www.coursera.org/specializations/algorithms) — algorithm design & analysis.  
+- [Princeton — Algorithms, Part I & II](https://www.coursera.org/learn/algorithms-part1) — implementation focus.  
+- [OSSU / Coursera micro-courses from Core Theory]:  
+  - [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](https://www.coursera.org/learn/algorithms-divide-conquer)  
+  - [Graph Search, Shortest Paths, and Data Structures](https://www.coursera.org/learn/algorithms-graphs-data-structures)  
+  - [Greedy Algorithms, MST, and Dynamic Programming](https://www.coursera.org/learn/algorithms-greedy)  
+  - [NP-Complete problems (what to do about them)](https://www.coursera.org/learn/algorithms-npcomplete)
 
 ---
 
-### Databases & Data Engineering
-
-- **Stanford / edX — Databases: Modeling and Theory** — [edX — Stanford Databases](https://www.edx.org/learn/databases/stanford-university-databases-modeling-and-theory) — *theory of relational modeling and transaction management.*  
-- **freeCodeCamp — Relational Databases / SQL tutorials** — [freeCodeCamp SQL tutorials](https://www.freecodecamp.org/news/tag/sql/) — *practical SQL and project-driven practice.*
-
----
-
-### Software Design, Architecture & System Design
-
-- **Coursera — Software Architecture** — [Software Architecture (Coursera)](https://www.coursera.org/learn/software-architecture) — *patterns, trade-offs, and architectural decisions.*  
-- **OSSU — Software Engineering guidance / project courses** — [OSSU - Software Engineering section](https://github.com/ossu/computer-science/tree/main) — *project-based recommendations and capstone ideas.* 9
+### Computer Systems
+- [Nand2Tetris (Build a Modern Computer)](https://www.coursera.org/learn/build-a-computer) — from logic gates to a high-level VM.  
+- [MIT — Computation Structures / Computer Architecture (6.004 OCW)](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/) — digital systems & processors.  
+- [OSTEP — Operating Systems: Three Easy Pieces](http://pages.cs.wisc.edu/~remzi/OSTEP/) — OS concepts.  
+- [Computer Networking: a Top-Down Approach (Kurose/Ross online lectures)](http://gaia.cs.umass.edu/kurose_ross/online_lectures.htm)
 
 ---
 
-### Web & Frontend Development
-
-- **freeCodeCamp — Full curriculum (Responsive Web, Frontend Libraries)** — [freeCodeCamp curriculum](https://www.freecodecamp.org/learn) — *hands-on projects for HTML/CSS/JS, React, and more.* 10  
-- **The Net Ninja, Traversy Media, Fireship (YouTube)** — *short tutorial/playlists for frameworks (React, Vue, Angular) and practical projects.*
-
----
-
-### Testing, Quality & Professional Practices
-
-- **The Missing Semester (MIT)** — [Missing Semester of Your CS Education](https://missing.csail.mit.edu/) — *practical tools, Git, shells, workflows — useful for real engineering practice.*  
-- **Coursera — Principles of Secure Coding / Secure Development** — [Principles of Secure Coding (Coursera)](https://www.coursera.org/learn/secure-coding-principles) — *secure coding basics and defensive programming.*
+### Databases
+- [Stanford — Databases: Modeling and Theory (edX)](https://www.edx.org/learn/databases/stanford-university-databases-modeling-and-theory) — modeling & theory.  
+- [Stanford — Relational Databases & SQL (edX)](https://www.edx.org/learn/relational-databases/stanford-university-databases-relational-databases-and-sql)  
+- [MongoDB University](https://university.mongodb.com/) — NoSQL, aggregation, indexing.  
+- [freeCodeCamp — SQL tutorials & practice](https://www.freecodecamp.org/news/tag/sql/)
 
 ---
 
-### DevOps, Cloud & Deployment
-
-- **IBM Skills / Coursera / edX — Cloud & DevOps courses** — [IBM Skills](https://www.ibm.com/training) — *ibm offers free and paid skill badges in cloud, devops, and ai.*  
-- **Coursera / edX — Cloud specializations (AWS/Azure/GCP)** — *pick specializations for deployment, kubernetes, and CI/CD pipelines.*
-
----
-
-### Advanced Topics & Electives
-
-- **Machine Learning** — [Coursera Machine Learning (Andrew Ng)](https://www.coursera.org/learn/machine-learning) — *entry point to ML concepts used in software engineering projects.*  
-- **Security & Cryptography** — [Stanford / Coursera Cryptography courses] — *foundational crypto theory and applied crypto topics.*
+### Software Architecture (Core of SW Engineering)
+- [Coursera — Software Architecture](https://www.coursera.org/learn/software-architecture) — architectural patterns & trade-offs.  
+- **Recommended readings:** *Clean Code* (Robert C. Martin) — maintainable code & best practices.  
+- [OSSU — Software Engineering (project-based resources)](https://github.com/ossu/computer-science) — capstone & software engineering course references.  
+- Topics to master: modular design, design patterns, system decomposition, API design, scalability, performance trade-offs.
 
 ---
 
-## Extra resources & full curricula
-
-- **OSSU — Full Open Curriculum (Computer Science)** — *complete, degree-like path of free courses and resources.* 11  
-- **TeachYourselfCS — book-first CS plan** — [TeachYourselfCS](https://teachyourselfcs.com/) — *reading list plus pointers to courses.*  
-- **InfoCobuild — university lectures archive** — [InfoCobuild Computer Science courses](https://www.infocobuild.com/education/audio-video-courses/computer-science/computer-science.html) — *video archives of university-level lectures.*  
-- **MIT OpenCourseWare — main portal (many CS courses)** — [MIT OCW](https://ocw.mit.edu) — *thousands of lecture notes, videos and assignments.* 12  
-- **freeCodeCamp — community & projects** — [freeCodeCamp forum & curriculum](https://forum.freecodecamp.org/) — *project help and community support.* 13
+### Frontend & Web
+- [freeCodeCamp — Responsive Web Design](https://www.freecodecamp.org/learn/responsive-web-design/) — HTML, CSS, accessibility, responsive layouts.  
+- [React Official Docs](https://react.dev/) — React fundamentals & hooks.  
+- [Traversy Media (YouTube)](https://www.youtube.com/c/TraversyMedia) — practical crash-courses and projects.
 
 ---
 
-## How I organized the links
-- For each topic I selected 2–4 **high-quality** options: (1) a university/OCW-style lecture or full course, (2) a Coursera/edX specialization or short course, (3) a free practical/provider resource (freeCodeCamp, OSSU, TeachYourselfCS), and (4) optional videos/playlists for fast practical learning.
+### Testing & QA
+- [MIT — The Missing Semester](https://missing.csail.mit.edu/) — developer tools, workflows, shell, git.  
+- [Coursera — Principles of Secure Coding](https://www.coursera.org/learn/secure-coding-principles) — defensive coding practices.  
+- [Test Automation University](https://testautomationu.applitools.com/) — automation frameworks, CI integration.  
+- OSSU resources: software testing playlists and project-based testing exercises.
 
 ---
 
-## Credits & license
-
-- **Image**: Provided by user (original roadmap).  
-- **Curriculum inspiration**: OSSU, TeachYourselfCS, and classic CS programs (MIT, Stanford, Princeton). 14
-
----
-
+### DevOps & Cloud
+- [IBM Skills — DevOps learning](https://www.ibm.com/training) — practical skill badges.  
+- [AWS Training & Certification](https://aws.amazon.com/training/) — cloud fundamentals.  
+- [Kubernetes Official Docs](https://kubernetes.io/docs/home/) — orchestration & deployments.  
+- Recommended tools: Docker, GitHub Actions / Jenkins / GitLab CI, Terraform, Prometheus + Grafana.
 
 ---
 
+### Advanced Topics (electives)
+- [Andrew Ng — Machine Learning (Coursera)](https://www.coursera.org/learn/machine-learning) — essential ML concepts (useful for engineers working with ML systems).  
+- [Stanford — Cryptography (Coursera)](https://www.coursera.org/learn/crypto) — practical crypto primitives & uses.  
+- [MIT — Artificial Intelligence (6.034 OCW)](https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2020/) — AI fundamentals.  
+- Advanced electives from OSSU that fit specialized tracks: compilers, distributed systems, security, graphics, robotics.
+
+---
+
+## Final Projects & Capstone
+
+Building projects and a capstone is required to demonstrate competency:
+
+- Sample project paths:
+  - Full-stack application (React + Node/Go + PostgreSQL + Docker + CI/CD).  
+  - Distributed system (microservices, message queues, eventual consistency).  
+  - Systems project (mini OS, language interpreter, compiler backend).  
+  - Machine learning pipeline with model deployment and monitoring.
+
+- Suggested guided project courses:
+  - [Fullstack Open](https://fullstackopen.com/en/) — modern web stack projects.  
+  - Cloud / Capstone specials (AWS/GCP hands-on labs).
+
+---
+
+## Extra Resources
+- [OSSU Computer Science repo (source for many included courses)](https://github.com/ossu/computer-science)  
+- [TeachYourselfCS — book-first deep plan](https://teachyourselfcs.com/)  
+- [MIT OCW](https://ocw.mit.edu) — large catalog of free courses.  
+- [freeCodeCamp](https://www.freecodecamp.org/) — project-based learning & certifications.
+
+---
+
+## How this repo was built (summary)
+- **Design & layout** adapted from OSSU (Computer Science) README (visual style, badges, structure).  
+- **Main content** taken from the Software Engineering roadmap you provided.  
+- **Additional course links** selectively pulled from the OSSU curriculum: only those most relevant to Software Engineering (math, programming, systems, testing, architecture, security, databases, etc.).  
+- Duplicates were merged and sections aligned to Software Engineering needs.
+
+---
+
+## Contributing
+
+If you'd like to add courses, projects, or localizations:
+
+1. Fork this repo.  
+2. Create a branch `feature/your-change`.  
+3. Edit or add courses / project examples.  
+4. Make a PR and add notes describing why the addition helps the Software Engineering path.
+
+Please follow the OSSU code of conduct and respect course licensing / sharing rules for assignments.
+
+---
+
+## Credits
+
+- **Design inspiration:** OSSU (Open Source Society University) README structure.  
+- **Content:** Software Engineering roadmap (user-provided) + relevant OSSU course links.  
+- **Image:** Provided by user.
+
+---
 
 
