@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="images/software-engineering" alt="  file_000000002d306243b78b721c12025989.png " width="160"/>
+  <img src="images/software-engineering/file_000000002d306243b78b721c12025989.png " alt="  file_000000002d306243b78b721c12025989.png " width="160"/>
   <h1>Software Engineering — Bachelor's Equivalency Roadmap</h1>
   <p>
     A curated, academic + practical roadmap to reach a Software Engineering bachelor's-equivalency —
