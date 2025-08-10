@@ -1,6 +1,6 @@
 
 <div align="center">
-  alt=" 
+  " 
   <h1>Software Engineering — Bachelor's Equivalency Roadmap</h1>
   <p>
     A curated, academic + practical roadmap to reach a Software Engineering bachelor's-equivalency —
