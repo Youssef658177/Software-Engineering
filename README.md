@@ -1,4 +1,4 @@
-
+file_000000002d306243b78b721c12025989.png
 <div align="center">
   <img src="images/ossu-logo.webp" alt="Open Source Society logo" width="160"/>
   <h1>Software Engineering — Bachelor's Equivalency Roadmap</h1>
