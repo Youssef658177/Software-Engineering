@@ -1,7 +1,7 @@
 
 <div align="center">
   <img src=" " alt=" " width="160"/>
-!(file_000000002d306243b78b721c12025989.png)[Software Engineering Roadmap]
+(file_000000002d306243b78b721c12025989.png)[Software Engineering Roadmap]
 
   <h1>Software Engineering — Bachelor's Equivalency Roadmap</h1>
   <p>
