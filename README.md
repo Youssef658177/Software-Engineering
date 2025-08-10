@@ -1,4 +1,10 @@
 
+
+Use the visual roadmap below as a guide:
+
+![Software Engineering Roadmap](file_000000002d306243b78b721c12025989.png)
+
+
 <div align="center">
   " 
   <h1>Software Engineering — Bachelor's Equivalency Roadmap</h1>
