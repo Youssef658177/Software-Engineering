@@ -182,7 +182,7 @@ Building projects and a capstone is required to demonstrate competency:
 
 [teachyourselfcs](https://teachyourselfcs.com/​)
 
-[courses from universities](http://www.infocobuild.com)...​
+[courses from universities](http://www.infocobuild.com/education/audio-video-courses/computer-science/computer-science.html)...​
 
 ## How this repo was built (summary)
 - **Design & layout** adapted from OSSU (Computer Science) README (visual style, badges, structure).  
