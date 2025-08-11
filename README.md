@@ -178,7 +178,11 @@ Building projects and a capstone is required to demonstrate competency:
 - [MIT OCW](https://ocw.mit.edu) — large catalog of free courses.  
 - [freeCodeCamp](https://www.freecodecamp.org/) — project-based learning & certifications.
 
----
+---[open source society university](https://github.com/ossu/computer)...​
+---------------------------------------------------
+[teachyourselfcs](https://teachyourselfcs.com/​)
+---------------------------------------------
+[courses from universities](http://www.infocobuild.com/educa)...​
 
 ## How this repo was built (summary)
 - **Design & layout** adapted from OSSU (Computer Science) README (visual style, badges, structure).  
