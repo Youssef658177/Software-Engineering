@@ -1,0 +1,29 @@
+import numpy as np
+
+# 1. Create a vector (the original point)
+original_point = np.array([4, 5])
+
+# 2. Create a rotation matrix (for 90 degrees counter-clockwise)
+rotation_matrix = np.array([[0, -1],
+                            [1, 0]])
+
+# 3. Perform the matrix-vector multiplication to rotate the point
+# The '@' operator is a clean way to do matrix multiplication in Python 3.5+
+rotated_point = rotation_matrix @ original_point
+
+# You can also use np.dot()
+# rotated_point = np.dot(rotation_matrix, original_point)
+
+# 4. Print the results
+print(f"Original Point (Vector): {original_point}")
+print(f"Rotation Matrix:\n{rotation_matrix}")
+print(f"Rotated Point (New Vector): {rotated_point}")
+
+# The expected output is a 90-degree counter-clockwise rotation
+# of (4, 5), which should be (-5, 4)
+# Output:
+# Original Point (Vector): [4 5]
+# Rotation Matrix:
+# [[ 0 -1]
+#  [ 1  0]]
+# Rotated Point (New Vector): [-5  4]
