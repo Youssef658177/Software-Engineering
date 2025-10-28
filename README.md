@@ -3,7 +3,7 @@
 
 Use the visual roadmap below as a guide:
 
-![Software Engineering Roadmap]( file_0000000080f8620a9247531cef42d2e9.png ) 
+![Software Engineering Roadmap](file_0000000080f8620a9247531cef42d2e9.png) 
 
 
 <div align="center">
