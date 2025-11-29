@@ -1,0 +1,48 @@
+import numpy as np
+import time
+
+# 1. Create a large 2000x2000 matrix
+SIZE = 2000
+# Initialize with random integers for realism
+matrix = np.random.randint(0, 100, size=(SIZE, SIZE), dtype=np.int32)
+
+print(f"Matrix Size: {SIZE}x{SIZE}")
+print("--- Measuring Performance (The Cache Effect) ---")
+
+# 2. Function 1: Summing by iterating rows first (Good Cache Locality)
+# NumPy stores data row-by-row in C-style, so accessing [i, j] then [i, j+1] is fast.
+def row_major_sum(m):
+    total = 0
+    for i in range(SIZE):
+        for j in range(SIZE):
+            total += m[i, j]
+    return total
+
+# 3. Function 2: Summing by iterating columns first (Poor Cache Locality)
+# Accessing [i, j] then [i+1, j] means jumping to a distant memory address, causing a Cache Miss.
+def col_major_sum(m):
+    total = 0
+    for j in range(SIZE):
+        for i in range(SIZE):
+            total += m[i, j]
+    return total
+
+# Measure and calculate Speedup Factor
+# --- Row Major Sum (Fast) ---
+start_time_row = time.time()
+row_major_sum(matrix)
+row_time = time.time() - start_time_row
+
+# --- Column Major Sum (Slow) ---
+start_time_col = time.time()
+col_major_sum(matrix)
+col_time = time.time() - start_time_col
+
+# Calculate the Speedup Factor (The factor by which the optimized code is faster)
+speedup_factor = col_time / row_time
+
+# 4. Print Results
+print(f"Row-Major Time (Good Locality, Fewer Cache Misses): {row_time:.5f} seconds")
+print(f"Col-Major Time (Poor Locality, More Cache Misses):  {col_time:.5f} seconds")
+print(f"\n (Speedup Factor): {speedup_factor:.2f}X")
+
