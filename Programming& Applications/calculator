@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int main (){
+
+double a,b;
+char op;
+cout<< "Enter first number:\n ";
+cin>> a ;
+cout<< "Enter operator (+-*/):\n ";
+cin>>op ;
+cout <<"Enter second number:\n ";
+cin>> b;
+switch (op){
+    case '+':cout<<"\n" <<a+b<<endl ;
+    break;
+    case '-': cout<<endl<< a-b<<"\n";
+    break;
+    case '*': cout<< "\n"<<a*b <<endl;
+    break;
+    case '/': if (b!=0)cout<<endl<<a/b <<"\n";
+    else cout <<"Error: Division by zero";
+    break;
+    default:
+    cout<<"Ivalid operator";
+
+
+
+}
+
+    return 100;
+}
